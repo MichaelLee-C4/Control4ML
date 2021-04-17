@@ -45,8 +45,8 @@
 	<!-- 
 	THERE IS NO REQUIREMENT TO EDIT ANYTHING BELOW THIS COMMENT
 	-->
-	<small image_source="c4z">icons/device_32.png</small>
-	<large image_source="c4z">icons/device_16.png</large>
+	<small image_source="c4z">icons/device_sm.png</small>
+	<large image_source="c4z">icons/device_lg.png</large>
 	<control>lua_gen</control>
 	<driver>DriverWorks</driver>
 	<copyright>Copyright 2016 Control4 Corporation. All Rights Reserved.</copyright>
