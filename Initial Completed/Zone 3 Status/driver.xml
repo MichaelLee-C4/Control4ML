@@ -10,7 +10,7 @@
 	<!-- 
 	Each time you modify the driver update the version number below.
 	-->
-	<version>1</version>
+	<version>2</version>
 	<!-- 
 	Modify the path in the display_icons section to match the name of your driver.
 	So if you saved this driver as scenario-party-time.c4z replace Scenario-Zone3-Button with scenario-party-time
