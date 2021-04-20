@@ -2,7 +2,7 @@
 	<!-- 
 	If you are making your own driver then change the details below.  Note the date is in US format: Month/Day/Year
 	-->
-	<name>Scenario - Parking Status</name>
+	<name>Scenario - Luggage Status</name>
 	<model>Scenario</model>
 	<creator>Michael Lee</creator>
 	<created>06/13/2016 10:00</created>
@@ -10,34 +10,34 @@
 	<!-- 
 	Each time you modify the driver update the version number below.
 	-->
-	<version>2</version>
+	<version>1</version>
 	<!-- 
 	Modify the path in the display_icons section to match the name of your driver.
-	So if you saved this driver as scenario-party-time.c4z replace Scenario-Parked-Button with scenario-party-time
+	So if you saved this driver as scenario-party-time.c4z replace Scenario-Lugage-Button with scenario-party-time
 	Ensure you also add your own png icons to the icons/device folder named default_300.png, default_90.png and default_70.png
 	Also add selected state icons as selected_300.png, selected_90.png and selected_70.png
 	-->
 	<capabilities>
 		<navigator_display_option proxybindingid="5001">
 			<display_icons>
-				<Icon height="90" width="90">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_90.png</Icon>
-				<Icon height="70" width="70">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_70.png</Icon>
-				<Icon height="300" width="300">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_300.png</Icon>
-				<Icon height="512" width="512">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_512.png</Icon>
-				<Icon height="1024" width="1024">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_1024.png</Icon>
+				<Icon height="90" width="90">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_90.png</Icon>
+				<Icon height="70" width="70">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_70.png</Icon>
+				<Icon height="300" width="300">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_300.png</Icon>
+				<Icon height="512" width="512">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_512.png</Icon>
+				<Icon height="1024" width="1024">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_1024.png</Icon>
 				<state id="Default">
-					<Icon width="70" height="70">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_70.png</Icon>
-					<Icon width="90" height="90">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_90.png</Icon>
-					<Icon width="300" height="300">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_300.png</Icon>
-					<Icon width="512" height="512">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_512.png</Icon>
-					<Icon width="1024" height="1024">controller://driver/Scenario-Parked-Button/icons/device/NotParked/experience_1024.png</Icon>
+					<Icon width="70" height="70">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_70.png</Icon>
+					<Icon width="90" height="90">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_90.png</Icon>
+					<Icon width="300" height="300">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_300.png</Icon>
+					<Icon width="512" height="512">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_512.png</Icon>
+					<Icon width="1024" height="1024">controller://driver/Scenario-Lugage-Button/icons/device/NotLugage/experience_1024.png</Icon>
 				</state>
 				<state id="Selected">
-					<Icon width="70" height="70">controller://driver/Scenario-Parked-Button/icons/device/Parked/experience_70.png</Icon>
-					<Icon width="90" height="90">controller://driver/Scenario-Parked-Button/icons/device/Parked/experience_90.png</Icon>
-					<Icon width="300" height="300">controller://driver/Scenario-Parked-Button/icons/device/Parked/experience_300.png</Icon>
-					<Icon width="512" height="512">controller://driver/Scenario-Parked-Button/icons/device/Parked/experience_512.png</Icon>
-					<Icon width="1024" height="1024">controller://driver/Scenario-Parked-Button/icons/device/Parked/experience_1024.png</Icon>
+					<Icon width="70" height="70">controller://driver/Scenario-Lugage-Button/icons/device/Lugage/experience_70.png</Icon>
+					<Icon width="90" height="90">controller://driver/Scenario-Lugage-Button/icons/device/Lugage/experience_90.png</Icon>
+					<Icon width="300" height="300">controller://driver/Scenario-Lugage-Button/icons/device/Lugage/experience_300.png</Icon>
+					<Icon width="512" height="512">controller://driver/Scenario-Lugage-Button/icons/device/Lugage/experience_512.png</Icon>
+					<Icon width="1024" height="1024">controller://driver/Scenario-Lugage-Button/icons/device/Lugage/experience_1024.png</Icon>
 				</state>
 			</display_icons>
 		</navigator_display_option>
